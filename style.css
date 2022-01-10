@@ -26,5 +26,19 @@ p{
     text-decoration: none;
     padding: 6px;
     border-radius: 8px;
+    font-weight: 500;
     
+}
+.orange-color{
+    color: orange;
+}
+.title-h1{
+    text-align: center;
+    width: 100%;
+}
+.vertical-line{
+    width: 100%;
+    padding: 10px 30px;
+    text-align: center;
+    background-color: orange;
 }
