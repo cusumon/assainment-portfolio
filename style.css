@@ -37,8 +37,52 @@ p{
     width: 100%;
 }
 .vertical-line{
-    width: 100%;
-    padding: 10px 30px;
+    width: 40px;
+    padding: 88px 3px;
     text-align: center;
     background-color: orange;
+    background-position-x: left;
+  
+}
+
+.flexible-container{
+   justify-content: center;
+   align-items: center;
+    display: flex;
+
+
+}
+.half-width p{
+    padding: 10px 20px;
+    margin: 10px;
+}
+.half-width b{
+    box-shadow: 4px 8px 0 rgb(red, green, blue);
+}
+.card-1{
+    padding: 10px 20px;
+    margin: 10px 15px;
+    background-color: rosybrown;
+    border-radius: 30px;
+}.card-1 img{
+    width: 50%;
+}
+.card-2{
+    padding: 2px 5px;
+    margin: 5px 10px;
+    background-color: salmon;
+    border-radius: 30px;
+}
+.card-2 img{
+    width: 40%
+}
+.card-3{
+    padding: 10px 20px;
+    margin: 10px 15px;
+    background-color: sienna;
+    border-radius: 30px;
+
+}
+.card-3 img{
+    width: 50%;
 }
